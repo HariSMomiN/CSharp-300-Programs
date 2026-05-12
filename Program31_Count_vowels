@@ -1,0 +1,10 @@
+using System;
+class Program {
+    static void Main() {
+        string s = "education";
+        int count = 0;
+        foreach (char c in s)
+            if ("aeiou".IndexOf(c) >= 0) count++;
+        Console.WriteLine(count);
+    }
+}
