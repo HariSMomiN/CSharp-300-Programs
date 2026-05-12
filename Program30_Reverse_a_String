@@ -1,0 +1,9 @@
+using System;
+class Program {
+    static void Main() {
+        string s = "Hello";
+        char[] c = s.ToCharArray();
+        Array.Reverse(c);
+        Console.WriteLine(new string(c));
+    }
+}
